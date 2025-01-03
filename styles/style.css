@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url("../src/bck.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+nav{
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background-color: rgb(85, 115, 160);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.search_btn a{
+    color: white;
+    font-size: 1.1rem;
+}
+
+.search_btn a:hover{
+    font-size: 2rem;
+    transition: 1s;
+}
+
+.logo > img{
+    padding: 10px 20px;
+    height: 50px;
+    width: 150px;
+}
+.menubar{
+    display: grid;
+    grid-template-columns: repeat(6, 120px);
+    justify-content: right;
+    align-items: stetch;
+    margin-left: 500px;
+    text-align: center;
+    height: 80px;
+    
+}
+.menubar > a{
+    text-decoration: none;
+    padding: 13px 2px 12px 0px;
+    margin: 2px;
+    font-family:cursive; 
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: rgb(247, 244, 244);
+}
+.menubar>a:hover{
+    background-color: #426e6b;
+    color: chocolate;
+    transition: .5s;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+.menubar .rgtbtn{
+    padding: 20px 0px;
+    background-color: rgba(138, 221, 236, 0.247);
+    border-radius: 10px;
+}
+
+.menubar .rgtbtn >a{
+    font-family: cursive;
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+
+}
+
+.menubar .rgtbtn:hover{
+    font-size: 1.2rem;
+    color: aliceblue;
+    background-color: #426e6b;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+.menubar .rgtbtn>a:hover{
+    color: chocolate;
+    /* font-size: 1.2rem; */
+}
+
+.content{
+    height: 90vh;
+    position: absolute;
+    margin-top: 100px;
+    margin-left:50px;
+    color: black;
+}
+
+.content > h1{ 
+    font-size: 2.5rem;
+    line-height: 65px;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+.content h1:hover{
+    font-size: 3rem;
+    transition: 1s;
+}
+.content > p{
+    font-size: 1.1rem;
+    font-weight: ;
+}
+.content > button{ 
+    height: 50px;
+    width: 200px;
+    margin: 25px 0px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.content > button:hover{
+    background-color: #426e6b;
+    color: white;
+    cursor: pointer;
+    font-size:1.5rem ;
+    transition: .5s;
+    box-shadow: 1px #3438389c;
+    border: none;
+}
+
+footer{
+    background-color: #426e6b;
+    width: 100%;
+    height: 50px;
+}
