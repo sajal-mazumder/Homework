@@ -8,8 +8,14 @@
 body{
     background-image:url("../src/bck.avif");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
 } 
+
+.totaldiv{
+    /* background-image:url("../src/bck.avif");
+    background-repeat: no-repeat;
+    background-size: cover;  */
+}
 nav{
     position: fixed;
     top: 0;
@@ -42,7 +48,7 @@ nav{
     display: grid;
     grid-template-columns: repeat(6, 120px);
     justify-content: right;
-    align-items: stetch;
+    /* align-items: center; */
     margin-left: 500px;
     text-align: center;
     height: 80px;
@@ -137,5 +143,5 @@ nav{
 footer{
     background-color: #426e6b;
     width: 100%;
-    height: 50px;
+    height: 80px;
 }
