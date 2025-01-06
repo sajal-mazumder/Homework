@@ -6,10 +6,9 @@
     box-sizing: border-box;
 }
 body{
-    background-image:url("../src/bck.avif");
+    background-image:url("../src/butter.jpg");
     background-repeat: no-repeat;
     background-size: cover; 
-} 
 
 .totaldiv{
     /* background-image:url("../src/bck.avif");
@@ -141,6 +140,7 @@ nav{
 }
 
 footer{
+    bottom: 0;
     background-color: #426e6b;
     width: 100%;
     height: 80px;
